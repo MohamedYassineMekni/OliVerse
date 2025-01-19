@@ -1,0 +1,45 @@
+[
+    {
+        "model": "api.user",
+        "pk": 1,
+        "fields": {
+            "username": "producer1",
+            "email": "producer1@example.com",
+            "password": "password123",
+            "user_type": "seller"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 2,
+        "fields": {
+            "username": "buyer1",
+            "email": "buyer1@example.com",
+            "password": "password123",
+            "user_type": "buyer"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 1,
+        "fields": {
+            "producer": 1,
+            "name": "Olive Oil Extra Virgin",
+            "description": "High-quality extra virgin olive oil.",
+            "price": 10.99,
+            "stock": 100,
+            "image": "http://example.com/image.jpg"
+        }
+    },
+    {
+        "model": "api.bestpractice",
+        "pk": 1,
+        "fields": {
+            "title": "Best Practices for Olive Oil Production",
+            "description": "A comprehensive guide to producing high-quality olive oil.",
+            "category": "Production",
+            "source_url": "http://example.com/best-practices",
+            "date_added": "2023-01-01T00:00:00Z"
+        }
+    }
+]
